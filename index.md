@@ -4,7 +4,8 @@ Many existing works on voice conversion (VC) tasks use automatic speech recognit
 ---
 ## One-shot Hindi Speech Voice Conversion
 In this section, we showcase some samples from our proposed model and also provide samples from the baseline model for comparision on the Hindi speech domain.<br>
-**All singers are unseen during the model training.**  
+**All singers are unseen during the model training.** 
+
 ---
 
 |              | Sample 1 (F05(NHSS) → PMAR(NUS48E)) | Sample 2 (PMAR(NUS48E) → F05(NHSS)) |
@@ -20,6 +21,8 @@ In this section, we showcase some samples from our proposed model and also provi
 |    **Target**    |     <audio controls="controls">  <source type="audio/wav" src="CroppedSources/ZHIY_14.wav"></source> </audio>   |     <audio controls="controls">  <source type="audio/wav" src="CroppedSources/M05_98.wav"></source> </audio> |
 |    **Baseline**   |     <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/Singing_V_0/F2M/SRC_F05_48_TRG_ZHIY_14.wav"></source> </audio>    |     <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/Singing_V_0/F2M/SRC_PMAR_1_TRG_M05_98.wav"></source> </audio>     |
 | **Proposed Method** |    <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/Singing_V_2/F2M/SRC_F05_48_TRG_ZHIY_14.wav"></source> </audio>     |    <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/Singing_V_2/F2M/SRC_PMAR_1_TRG_M05_98.wav"></source> </audio>      |
+
+---
 
 ## One-shot English Singing Voice Conversion
 In this section, we showcase some samples from our proposed model and also provide samples from the baseline model for comparision on the English singing domain.<br>
