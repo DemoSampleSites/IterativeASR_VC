@@ -6,21 +6,12 @@ Many existing works on voice conversion (VC) tasks use automatic speech recognit
 In this section, we showcase some samples from our proposed model and also provide samples from the baseline model for comparision on the Hindi speech domain.<br>
 **All singers are unseen during the model training.** 
 
----
-
-|              | Sample 1 (F05(NHSS) → PMAR(NUS48E)) | Sample 2 (PMAR(NUS48E) → F05(NHSS)) |
+|              | Sample 1 (Female → Male) | Sample 2 (Male → Female) |
 |:------------:|:-------:|:-------:|
-|    **Source**    |    <audio controls="controls">  <source type="audio/wav" src="CroppedSources/F05_48.wav"></source> </audio>   |    <audio controls="controls">  <source type="audio/wav" src="CroppedSources/PMAR_43.wav"></source> </audio>  |
-|    **Target**    |     <audio controls="controls">  <source type="audio/wav" src="CroppedSources/PMAR_1.wav"></source> </audio>   |     <audio controls="controls">  <source type="audio/wav" src="CroppedSources/F05_118.wav"></source> </audio> |
-|    **Baseline**   |     <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/Singing_V_0/F2F/SRC_F05_48_TRG_PMAR_1.wav"></source> </audio>    |     <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/Singing_V_0/F2F/SRC_PMAR_43_TRG_F05_118.wav"></source> </audio>     |
-| **Proposed Method** |    <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/Singing_V_2/F2F/SRC_F05_48_TRG_PMAR_1.wav"></source> </audio>     |    <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/Singing_V_2/F2F/SRC_PMAR_43_TRG_F05_118.wav"></source> </audio>      |
-
-|              | Sample 1 (F05(NHSS) → ZHIY(NUS48E)) | Sample 2 (PMAR(NUS48E) → M05(NHSS)) |
-|:------------:|:-------:|:-------:|
-|    **Source**    |    <audio controls="controls">  <source type="audio/wav" src="CroppedSources/F05_48.wav"></source> </audio>   |    <audio controls="controls">  <source type="audio/wav" src="CroppedSources/PMAR_1.wav"></source> </audio>  |
-|    **Target**    |     <audio controls="controls">  <source type="audio/wav" src="CroppedSources/ZHIY_14.wav"></source> </audio>   |     <audio controls="controls">  <source type="audio/wav" src="CroppedSources/M05_98.wav"></source> </audio> |
-|    **Baseline**   |     <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/Singing_V_0/F2M/SRC_F05_48_TRG_ZHIY_14.wav"></source> </audio>    |     <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/Singing_V_0/F2M/SRC_PMAR_1_TRG_M05_98.wav"></source> </audio>     |
-| **Proposed Method** |    <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/Singing_V_2/F2M/SRC_F05_48_TRG_ZHIY_14.wav"></source> </audio>     |    <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/Singing_V_2/F2M/SRC_PMAR_1_TRG_M05_98.wav"></source> </audio>      |
+|    **Source**    |    <audio controls="controls">  <source type="audio/wav" src="Samples/Hindi/0/0SPK_1-1_1526.wav"></source> </audio>   |    <audio controls="controls">  <source type="audio/wav" src="Samples/Hindi/1/0SPK_2-1_1001.wav"></source> </audio>  |
+|    **Target**    |     <audio controls="controls">  <source type="audio/wav" src="Samples/Hindi/0/0SPK_2-1_1023.wav"></source> </audio>   |     <audio controls="controls">  <source type="audio/wav" src="Samples/Hindi/1/0SPK_1-1_1646.wav"></source> </audio> |
+|    **Baseline**   |     <audio controls="controls">  <source type="audio/wav" src="Samples/Hindi/0/Iter_0_SRC_0SPK_1-1_1526_TRG_0SPK_2-1_1023.wav"></source> </audio>    |     <audio controls="controls">  <source type="audio/wav" src="Samples/Hindi/1/Iter_0_SRC_0SPK_2-1_1001_TRG_0SPK_1-1_1646.wav"></source> </audio>     |
+| **Proposed Method** |    <audio controls="controls">  <source type="audio/wav" src="Samples/Hindi/0/Iter_3_SRC_0SPK_1-1_1526_TRG_0SPK_2-1_1023.wav"></source> </audio>     |    <audio controls="controls">  <source type="audio/wav" src="Samples/Hindi/1/Iter_3_SRC_0SPK_2-1_1001_TRG_0SPK_1-1_1646.wav"></source> </audio>      |
 
 ---
 
@@ -28,18 +19,11 @@ In this section, we showcase some samples from our proposed model and also provi
 In this section, we showcase some samples from our proposed model and also provide samples from the baseline model for comparision on the English singing domain.<br>
 **All singers are unseen during the model training.**  
 
-|              | Sample 1 (M05(NHSS) → F05(NHSS)) | Sample 2 (ZHIY(NUS48E) → PMAR(NUS48E)) |
-|:------------:|:-------:|:-------:|
-|    **Source**    |    <audio controls="controls">  <source type="audio/wav" src="CroppedSources/M05_118.wav"></source> </audio>   |    <audio controls="controls">  <source type="audio/wav" src="CroppedSources/ZHIY_14.wav"></source> </audio>  |
-|    **Target**    |     <audio controls="controls">  <source type="audio/wav" src="CroppedSources/F05_48.wav"></source> </audio>   |     <audio controls="controls">  <source type="audio/wav" src="CroppedSources/PMAR_1.wav"></source> </audio> |
-|    **Baseline**   |     <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/Hindi_V_0/M2F/SRC_M05_118_TRG_F05_48.wav"></source> </audio>    |     <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/Hindi_V_0/M2F/SRC_ZHIY_14_TRG_PMAR_1.wav"></source> </audio>     |
-| **Proposed Method** |    <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/Hindi_V_3/M2F/SRC_M05_118_TRG_F05_48.wav"></source> </audio>     |    <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/Hindi_V_3/M2F/SRC_ZHIY_14_TRG_PMAR_1.wav"></source> </audio>      |
-
 ### Male to Male
 
-|              | Sample 1 (M05(NHSS) → ZHIY(NUS48E)) | Sample 2 (ZHIY(NUS48E) → M05(NHSS)) |
+|              | Sample 1 (PMAR(NUS48E) → M05(NHSS)) | Sample 2 (ZHIY(NUS48E) → PMAR(NUS48E)) |
 |:------------:|:-------:|:-------:|
-|    **Source**    |    <audio controls="controls">  <source type="audio/wav" src="CroppedSources/M05_98.wav"></source> </audio>   |    <audio controls="controls">  <source type="audio/wav" src="CroppedSources/ZHIY_14.wav"></source> </audio>  |
-|    **Target**    |     <audio controls="controls">  <source type="audio/wav" src="CroppedSources/ZHIY_14.wav"></source> </audio>   |     <audio controls="controls">  <source type="audio/wav" src="CroppedSources/M05_98.wav"></source> </audio> |
-|    **Baseline**   |     <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/Hindi_V_0/M2M/SRC_M05_98_TRG_ZHIY_14.wav"></source> </audio>    |     <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/Hindi_V_0/M2M/SRC_ZHIY_14_TRG_M05_98.wav"></source> </audio>     |
-| **Proposed Method** |    <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/Hindi_V_3/M2M/SRC_M05_98_TRG_ZHIY_14.wav"></source> </audio>     |    <audio controls="controls">  <source type="audio/wav" src="Samples/Comparision/Hindi_V_3/M2M/SRC_ZHIY_14_TRG_M05_98.wav"></source> </audio>      |
+|    **Source**    |    <audio controls="controls">  <source type="audio/wav" src="Samples/Singing/0/PMAR-11-034.wav"></source> </audio>   |    <audio controls="controls">  <source type="audio/wav" src="Samples/Singing/1/ZHIY-14-006.wav"></source> </audio>  |
+|    **Target**    |     <audio controls="controls">  <source type="audio/wav" src="Samples/Singing/0/M05-0S11_24-210.wav"></source> </audio>   |     <audio controls="controls">  <source type="audio/wav" src="Samples/Singing/1/PMAR-05-024.wav"></source> </audio> |
+|    **Baseline**   |     <audio controls="controls">  <source type="audio/wav" src="Samples/Singing/0/Iter_0_SRC_PMAR-11-034_TRG_M05-0S11_24-210.wav"></source> </audio>    |     <audio controls="controls">  <source type="audio/wav" src="Samples/Singing/1/Iter_0_SRC_ZHIY-14-006_TRG_PMAR-05-024.wav"></source> </audio>     |
+| **Proposed Method** |    <audio controls="controls">  <source type="audio/wav" src="Samples/Singing/0/Iter_2_SRC_PMAR-11-034_TRG_M05-0S11_24-210.wav"></source> </audio>     |    <audio controls="controls">  <source type="audio/wav" src="Samples/Singing/1/Iter_2_SRC_ZHIY-14-006_TRG_PMAR-05-024.wav"></source> </audio>      |
